@@ -1,13 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nyeWPUMW)
-
-## Team Members
-- Akshay Badagabettu (Andrew ID: abadagab)
-- Sai Sravan Yarlagadda (Andrew ID: saisravy)
-
 ## Video Link
 https://drive.google.com/drive/folders/1uwNKwcG-gtiTr8LfJ6f3FAWvO2ohrKHy?usp=sharing
-If the above link does not work, we have provided link for the youtube video too
-https://youtu.be/ILB72vHz3rs
   
 ## Constraints
 - sofifa_id, height_cm, weight_kg - non nullable, integer
