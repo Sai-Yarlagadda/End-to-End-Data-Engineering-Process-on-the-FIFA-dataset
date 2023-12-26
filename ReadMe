@@ -1,7 +1,8 @@
-## Video Link
+The video of the project can be found below.
 https://drive.google.com/drive/folders/1uwNKwcG-gtiTr8LfJ6f3FAWvO2ohrKHy?usp=sharing
   
-## Constraints
+
+## Constaints
 - sofifa_id, height_cm, weight_kg - non nullable, integer
 - player_url, short_name, long_name, player_position - char/varchar
 - value_eur, wage_eur - nullable, double (nullable to account for new players without value and salary)
