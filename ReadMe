@@ -2,7 +2,7 @@ The video of the project can be found below.
 https://drive.google.com/drive/folders/1uwNKwcG-gtiTr8LfJ6f3FAWvO2ohrKHy?usp=sharing
   
 
-## Constaints
+# Constaints
 - sofifa_id, height_cm, weight_kg - non nullable, integer
 - player_url, short_name, long_name, player_position - char/varchar
 - value_eur, wage_eur - nullable, double (nullable to account for new players without value and salary)
@@ -33,7 +33,7 @@ https://drive.google.com/drive/folders/1uwNKwcG-gtiTr8LfJ6f3FAWvO2ohrKHy?usp=sha
 - Serial_no - non nullable, unique, long
 
 
-## Description of features
+# Description of features
 - sofifa_id - unique sofifa ID for each player
 - player_url - A unique URL for each player hosted on sofifa.com
 - short_name - Player names with last name and first letter of first name
@@ -68,11 +68,11 @@ https://drive.google.com/drive/folders/1uwNKwcG-gtiTr8LfJ6f3FAWvO2ohrKHy?usp=sha
 - ls,	st,	rs,	lw,	lf,	cf,	rf,	rw,	lam,	cam,	ram,	lm,	lcm,	cm,	rcm,	rm,	lwb,	ldm,	cdm,	rdm,	rwb,	lb,	lcb,	cb,	rcb, rb,	gk - Overall rating of the player (Attributes + international_reputation)
 - player_face_url,	club_logo_url,	club_flag_url,	nation_logo_url,	nation_flag_url - The URL for face of the player, club logo, club flag, nation logo and nation flag respectively. All are hosted on sofifa
 
-## Why we chose the regressors?
+# Why we chose the regressors?
 In SparkML, we select Linear Regression as the first model becuase it is the simplest and one of the quickest ML models. It also provides a good baseline MSE and R2 value for comparing other complex models. Second model was gradient boosted regression, and as we saw in the homework, this was a very powerful model. Pytorch was used as we are comfortable with it than tensorflow. The shallow neural network has one hidden layer and the deep one has multiple hidden layers. All use ReLU activation functions.
 
-## Impact of tunable parameters on MSE
+# Impact of tunable parameters on MSE
 We saw that hyperparameter tuning was very powerful for all the 4 models. In the video we explained why we chose the hyperparameters and why we changed a hyperparameter in a particular way. In all 4 cases, hyperparameter tuning improved the model considerably. The MSE values were reduced and these reduced MSE values are reported in the jupyter notebook and in the video.
 
-## Compare the selected models
+# Compare the selected models
 The gradient boosted regressor gave the best model when taking MSE into consideration. Linear regression model was the second best. Both the neural networks were getting stuck at MSE = 49 for some reason and hence that is the worst model.
